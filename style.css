@@ -1,0 +1,29 @@
+/* Змінені кольори елементів */
+.changed {
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+/* Вказівник при наведенні на елементи */
+#element10,
+.element11 {
+    cursor: pointer;
+}
+/* Кнопки */
+.buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #F4B6C2;
+    color: #5C3A47;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Колір при наведенні */
+.buttons button:hover {
+    background-color: #E8A0B4;
+}
